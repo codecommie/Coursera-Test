@@ -7,11 +7,11 @@
 </head>
 <body>
     <div><h1>HTML5 Project</h1>
-    <section>
+    <section id="section1">
         <p>This is a div tag showcasing div and <span>span content.</span></p>
     </section>
     <hr>
-    <section>
+    <section id="section2">
         <h2>Lists</h2>
         <div>
             <ul>
@@ -30,9 +30,64 @@
             <h3>Ordered Lists</h3>
         </div>
     </section>
-    <section>
+    <hr>
+    <section id="section3">
         <h4>Entity References</h4>
         <p>Sometimes you will need to use special characters within your code that the browser would normally not interpret. Some of these characters are the &amp; symbol, the &lt; symbol, the &gt; symbol, and the &copy; symbol. Additionally, I can surround certain text with a nonbreaking&nbsp;space to keep text wrapped together when browsers are resized.</p>
+    </section>
+    <hr>
+    <section id="section 4">
+        <h5>Internal Links</h5>
+        <p>The below is a rel internal link:</p>
+        <a href="internal-links.html" target="_blank" title="to internal-links file">Internal Links Page</a>
+        <a href="internal-links.html" title="to internal-links file"><div>Internal Links Page</div></a>
+        <p>This includes a link to a <a href="#section5" title="to section 5 on the same page">section</a> with the correct id tags.</p>
+        <p>This includes a link to a <a href="#item01" title="to item 01 on the same page">item</a> with the correct id tags.</p>
+    </section>
+    <section id="deletable">
+        <h6>Deletable Section for Section Link</h6>
+        <div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3
+                    <ul>
+                        <li>Item 3.1</li>
+                        <li>Item 3.2</li>
+                    </ul>
+                </li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3
+                    <ul>
+                        <li>Item 3.1</li>
+                        <li>Item 3.2</li>
+                    </ul>
+                </li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+        <div>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3
+                    <ul>
+                        <li>Item 3.1</li>
+                        <li id="item01">Item 3.2</li>
+                    </ul>
+                </li>
+                <li>Item 4</li>
+            </ul>
+        </div>
+    </section>
+    <section id="section5">
+        <h6>Section 5!</h6>
     </section>
 </body>
 </html> 
