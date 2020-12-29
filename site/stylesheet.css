@@ -1,3 +1,11 @@
 img {
     max-width: 100%;
 }
+h1 {
+    font-size: 50rem;
+}
+.paragraph {
+    font-family: "Times New Roman";
+    color: #ffffff; font-size: 3rem;
+    width: 10%;
+}
